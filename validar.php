@@ -5,6 +5,7 @@ $usuarios=[
 ["correo"=>"maria@gmail.com","clave"=>"maria123","nombre"=>"María López"]
 ];
 
+
 function buscarUsuario($usuarios,$correo,$clave){
 foreach($usuarios as $u){
 if($u["correo"]==$correo && $u["clave"]==$clave)
